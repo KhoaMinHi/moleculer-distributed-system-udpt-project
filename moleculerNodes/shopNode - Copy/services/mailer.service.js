@@ -3,8 +3,8 @@ const nodemailer = require("nodemailer");
 const transporter = nodemailer.createTransport({
     service: 'hotmail',
     auth: {
-      user: "udpt-n06@hotmail.com", // generated ethereal user mdm-project-2022@hotmail.com #password#
-      pass: "#password#", // generated ethereal password
+      user: "yourmail@hotmail.com", //
+      pass: "yourpassword", // generated ethereal password
     },
     tls: {
       rejectUnauthorized: false,
